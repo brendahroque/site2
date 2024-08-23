@@ -1,0 +1,190 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #3bbada;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    float: left;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .login-btn {
+    float: right;
+    background: #1aabcf;
+    color: #fff;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+/* Seções */
+section {
+    padding: 60px 0;
+}
+
+.hero {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    background: #6ed9e7;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.sobre, .investimentos, .blog, .contato {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.sobre h2, .investimentos h2, .blog h2, .contato h2 {
+    margin-bottom: 20px;
+}
+
+.investimento, .post {
+    margin-bottom: 20px;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #6ed9e7;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #6ed9e7;
+}
+
+/* Footer */
+footer {
+    background: #6e6c6c;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.social-icon {
+    display: inline-block;
+    background: #645f5f;
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    border-radius: 50%;
+    width: 40px;
+    text-align: center;
+}
+
+.newsletter {
+    text-align: center;
+}
+
+.newsletter input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    background: #6ed9e7;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background: #6ed9e7;
+}
+
+.action {
+    color: black;
+}
