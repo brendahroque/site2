@@ -21,7 +21,7 @@ body {
 /* Header */
 header {
     background: #3bbada;
-    color: #fff;
+    color: #ffffff;
     padding: 10px 0;
     position: fixed;
     width: 100%;
@@ -44,14 +44,14 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
 
 header .login-btn {
     float: right;
     background: #1aabcf;
-    color: #fff;
+    color: #ffffff;
     padding: 5px 15px;
     text-decoration: none;
 }
@@ -62,7 +62,7 @@ section {
 }
 
 .hero {
-    background: #f4f4f4;
+    background: #fff7f7;
     text-align: center;
     padding: 100px 0;
 }
@@ -73,14 +73,14 @@ section {
 
 .cta-btn {
     background: #6ed9e7;
-    color: #fff;
+    color: #ffffff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .sobre, .investimentos, .blog, .contato {
-    background: #fff;
+    background: #ffffff;
     border-bottom: 1px solid #ddd;
 }
 
@@ -111,7 +111,7 @@ form input, form textarea {
 
 form button {
     background: #6ed9e7;
-    color: #fff;
+    color: #ffffff;
     border: none;
     padding: 10px;
     border-radius: 5px;
@@ -125,7 +125,7 @@ form button:hover {
 /* Footer */
 footer {
     background: #6e6c6c;
-    color: #fff;
+    color: #ffffff;
     padding: 20px 0;
 }
 
@@ -140,7 +140,7 @@ footer ul li {
 }
 
 footer ul li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -174,7 +174,7 @@ footer ul li a {
 
 .newsletter button {
     background: #6ed9e7;
-    color: #fff;
+    color: #ffffff;
     border: none;
     padding: 10px;
     border-radius: 5px;
@@ -185,6 +185,9 @@ footer ul li a {
     background: #6ed9e7;
 }
 
-.action {
-    color: black;
+/*ações*/
+.atenção{
+    color: #000000;
+    padding: 50px;
+
 }
